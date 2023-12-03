@@ -715,7 +715,9 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) scale(1);
 padding: 72px 24px 24px 24px;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2)
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-class-button {
@@ -738,12 +740,13 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.modal-class-button:focus
+.modal-class-button:focus,
 .modal-class-button:hover
 {
 
 background-color: #404bbf;
 fill: #ffffff;
+border: none;
 }
 .modal-class-button-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -780,7 +783,7 @@ fill: #ffffff;
   }
   
         .review-form-field-wrapper {
-            margin-bottom: 8px;
+            margin-bottom: 16px;
         }
         .review-form-field-label {
             color: #8E8F99;
@@ -832,7 +835,7 @@ color: rgba(46, 47, 66, 0.40);
 }
 
 .review-form-checkbox-wrapper{
-margin-bottom: 16px;
+margin-bottom: 24px;
 }
 
 .review-form-checkbox-label {
