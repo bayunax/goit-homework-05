@@ -829,6 +829,7 @@ border: none;
         resize: none;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: block;
 }
 .review-form-comment::placeholder {
 color: rgba(46, 47, 66, 0.40);
